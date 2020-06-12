@@ -1,0 +1,17 @@
+{
+  "version": "0.1.0",
+  "apiVersion": "1.0.0",
+  "author": "Rani Horev",
+  "description": "Parse AdaFruit's Seesaw modules data",
+  "name": "Seesaw Toolkit",
+  "extensions": {
+    "Seesaw Reader": {
+      "type": "HighLevelAnalyzer",
+      "entryPoint": "SeesawHLA.Hla"
+    },
+    "I2C Filter": {
+      "type": "HighLevelAnalyzer",
+      "entryPoint": "base_i2c_filter.BaseI2CFilter"
+    }
+  }
+}
